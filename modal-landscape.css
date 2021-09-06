@@ -65,7 +65,7 @@ p {
   
 /* ===== GALLERY IMAGES ===== */
 .gallery-img-container .gallery-div {
-	/* !!! float:left NOT ALIGNING IMAGES PROPERLY !!! */
+	/* !!!! float:left NOT ALIGNING IMAGES PROPERLY !!!! */
 	display: inline-block;
 	width: 49%;
 	margin: 5px;
