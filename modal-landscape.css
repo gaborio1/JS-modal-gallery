@@ -36,7 +36,10 @@ p {
 	flex-direction: column;
 	align-items: center;
 	width: var(--max-width);
-	height: fit-content;
+	/* height: fit-content; */
+
+	/* !!! THIS IS TO MAKE SKEW SCROLL VISIBLE !!!  */
+	height: 150vh;
 }
   
 .main-coloumn {
@@ -160,7 +163,6 @@ img.modal-img {
 /* !!! THIS DIV HAS TO BE RELATIVE AS IT CONTAINS CLOSE/PREV/NEXT (absolute) !!!  */
 .modal-img-container {
 	position: relative;
-	/* border: 3px solid blue; */
 }
 
   /* ===== MODAL IMG CONTAIMERS ===== */
